@@ -344,6 +344,8 @@ public class Program {
                         System.out.println("Nome: " + p.getNameProduct() + " / Quantidade: " + p.getQuantity());
                     }
                     break;
+                case 7:
+                    break;
                 default:
                     System.out.println("Digite uma opção válida, dentre ela de 1 a 7.");
                     break;
@@ -366,4 +368,5 @@ public class Program {
         System.out.println("[===================================]");
         System.out.println("Oque você deseja escolher: ");
     }
+
 }
