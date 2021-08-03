@@ -1,10 +1,10 @@
 //Pacotes usados/importações de entidades
-package application;
-
-import entities.Product;
-import entities.User;
+package controller;
 
 import java.util.*;
+
+import model.Product;
+import model.User;
 
 public class Program {
     public static void main(String[] args) {
@@ -89,8 +89,7 @@ public class Program {
                                 System.out.println("Voltando ao menu principal!");
                             }
                             while (op == 1) {
-                                System.out.println(
-                                        "Oque você deseja alterar: [1]Nome / [2]Endereço / [3]Telefone / [4]Sair");
+                                System.out.println("Oque você deseja alterar: [1]Nome / [2]Endereço / [3]Telefone / [4]Sair");
                                 int opalterar = sc.nextInt();
                                 // switch para alteração dos dados
                                 switch (opalterar) {
@@ -123,6 +122,8 @@ public class Program {
                                         // caso o usuário queira sair do menu, o op que é a var do switch contara 1++,
                                         // comparando com == 1, ele irá sair do switch.
                                         op++;
+                                        break;
+                                    default:
                                         break;
                                 }
                             }
@@ -243,6 +244,8 @@ public class Program {
                                     case 6:
                                         // caso conte 1 irá sair do switch
                                         opProd++;
+                                        break;
+                                    default:
                                         break;
                                 }
                             }

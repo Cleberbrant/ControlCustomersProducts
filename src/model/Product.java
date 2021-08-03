@@ -1,11 +1,11 @@
-package entities;
+package model;
 
 public class Product {
-    public String nameProduct;
-    public String description;
-    public Double value;
-    public Double percentage;
-    public int quantity;
+    private String nameProduct;
+    private String description;
+    private Double value;
+    private Double percentage;
+    private int quantity;
 
     public Product() { } //default
 

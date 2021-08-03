@@ -1,9 +1,9 @@
-package entities;
+package model;
 
 public class User {
-    public String name;
-    public String adress;
-    public String telephone;
+    private String name;
+    private String adress;
+    private String telephone;
 
     public User() { } //default
 
